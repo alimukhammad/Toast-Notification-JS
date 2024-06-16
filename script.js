@@ -15,7 +15,7 @@ function myFunction() {
         var toast = document.createElement("div");
 
         // Add classes for styling
-        toast.classList.add("toast");
+        toast.classList.add("toast"); //The line toast.classList.add("toast"); in JavaScript adds the CSS class "toast" to the HTML element represented by the toast object.
 
         // Add the message
         toast.textContent = "Submit button clicked!";
